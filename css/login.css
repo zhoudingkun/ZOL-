@@ -1,0 +1,158 @@
+.main {
+  width: 990px;
+  margin: 0 auto; }
+
+body {
+  background: #fafafa; }
+
+.login-header {
+  margin-top: 10px;
+  overflow: hidden; }
+  .login-header .header-left {
+    float: left; }
+    .login-header .header-left li {
+      font-size: 14px;
+      float: left; }
+    .login-header .header-left li.space {
+      width: 1px;
+      height: 45px;
+      background: #e6e6e6;
+      margin: 10px 7px 0 7px; }
+    .login-header .header-left li.hl-last {
+      margin-top: 20px; }
+  .login-header .header-right {
+    float: right;
+    margin-top: 20px; }
+    .login-header .header-right span {
+      font-size: 14px; }
+      .login-header .header-right span a {
+        font-size: 14px;
+        color: red;
+        padding: 3px; }
+        .login-header .header-right span a:hover {
+          background: red;
+          color: white; }
+
+.lg-nav {
+  margin-top: 40px;
+  background: white;
+  width: 988px;
+  height: 350px;
+  border: 1px solid #e6e6e6; }
+  .lg-nav .left-nav {
+    float: left; }
+  .lg-nav .right-nav {
+    float: left;
+    margin: 30px 0 0 90px; }
+    .lg-nav .right-nav ul.active2 {
+      display: block !important; }
+    .lg-nav .right-nav li.active1 {
+      border-bottom: 2px solid #de3030; }
+    .lg-nav .right-nav ul {
+      height: 32px;
+      border-bottom: 2px solid #e6e6e6; }
+      .lg-nav .right-nav ul li {
+        float: left;
+        position: relative;
+        width: 144px;
+        line-height: 32px;
+        font-size: 18px;
+        text-align: center; }
+      .lg-nav .right-nav ul input {
+        width: 288px;
+        height: 38px; }
+      .lg-nav .right-nav ul .l1 .list1 {
+        position: absolute;
+        top: 45px;
+        display: none; }
+        .lg-nav .right-nav ul .l1 .list1 li {
+          width: 288px;
+          margin-bottom: 10px; }
+        .lg-nav .right-nav ul .l1 .list1 .cooper {
+          background: url("../images/login5_03.jpg") repeat-x;
+          margin-top: 10px;
+          position: relative;
+          height: 20px; }
+          .lg-nav .right-nav ul .l1 .list1 .cooper span {
+            position: absolute;
+            top: -15px;
+            left: 30%; }
+        .lg-nav .right-nav ul .l1 .list1 .coo {
+          margin-top: -14px; }
+          .lg-nav .right-nav ul .l1 .list1 .coo .coo1, .lg-nav .right-nav ul .l1 .list1 .coo .coo2, .lg-nav .right-nav ul .l1 .list1 .coo .coo3, .lg-nav .right-nav ul .l1 .list1 .coo .coo4, .lg-nav .right-nav ul .l1 .list1 .coo .coo5 {
+            float: left;
+            width: 39px;
+            height: 40px;
+            margin-right: 18px; }
+          .lg-nav .right-nav ul .l1 .list1 .coo .coo1 {
+            background: url("../images/lgbg1.png") no-repeat 0 2px; }
+            .lg-nav .right-nav ul .l1 .list1 .coo .coo1:hover {
+              background: url("../images/lgbg1.png") no-repeat 0 -38px; }
+          .lg-nav .right-nav ul .l1 .list1 .coo .coo2 {
+            background: url("../images/lgbg3.png") no-repeat 0 -81px; }
+            .lg-nav .right-nav ul .l1 .list1 .coo .coo2:hover {
+              background: url("../images/lgbg3.png") no-repeat 0 -119px; }
+          .lg-nav .right-nav ul .l1 .list1 .coo .coo3 {
+            background: url("../images/lgbg3.png") no-repeat -38px -81px; }
+            .lg-nav .right-nav ul .l1 .list1 .coo .coo3:hover {
+              background: url("../images/lgbg3.png") no-repeat -38px -119px; }
+          .lg-nav .right-nav ul .l1 .list1 .coo .coo4 {
+            background: url("../images/lgbg3.png") no-repeat -76px -81px; }
+            .lg-nav .right-nav ul .l1 .list1 .coo .coo4:hover {
+              background: url("../images/lgbg3.png") no-repeat -77px -119px; }
+          .lg-nav .right-nav ul .l1 .list1 .coo .coo5 {
+            background: url("../images/lgbg3.png") no-repeat -116px -81px; }
+            .lg-nav .right-nav ul .l1 .list1 .coo .coo5:hover {
+              background: url("../images/lgbg3.png") no-repeat -116px -119px; }
+        .lg-nav .right-nav ul .l1 .list1 .list1-btn {
+          background: #de2f2f;
+          color: white;
+          border-style: none; }
+        .lg-nav .right-nav ul .l1 .list1 .list1-left {
+          float: left; }
+          .lg-nav .right-nav ul .l1 .list1 .list1-left span {
+            color: red; }
+          .lg-nav .right-nav ul .l1 .list1 .list1-left i {
+            font-style: normal;
+            font-size: 12px; }
+        .lg-nav .right-nav ul .l1 .list1 .list1-right {
+          float: right; }
+      .lg-nav .right-nav ul .l2 {
+        float: left; }
+        .lg-nav .right-nav ul .l2 .list2 {
+          display: none;
+          position: absolute;
+          top: 45px;
+          left: -143px; }
+          .lg-nav .right-nav ul .l2 .list2 li {
+            width: 288px;
+            margin-bottom: 10px; }
+          .lg-nav .right-nav ul .l2 .list2 .list2-btn {
+            background: #de2f2f;
+            color: white;
+            border-style: none; }
+          .lg-nav .right-nav ul .l2 .list2 .list2-right {
+            float: right; }
+
+.hr {
+  margin-top: 80px; }
+
+.footer .footer-left {
+  float: left;
+  margin-top: 13px; }
+  .footer .footer-left li {
+    float: left; }
+    .footer .footer-left li a {
+      color: #666; }
+  .footer .footer-left li.space {
+    width: 1px;
+    height: 10px;
+    background: #d4ccd4;
+    margin-top: 10px;
+    margin: 0 11px; }
+
+.footer .footer-right {
+  margin-top: 13px;
+  float: right;
+  font-size: 12px;
+  color: #666; }

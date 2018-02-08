@@ -1,0 +1,31 @@
+body,html,div,p,header,nav,footer,aside,span,ol,
+li,dl,dd,dt,ul,input,button,fieldset,form{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+}
+a{
+	font-size: 12px;
+	color:#666666;
+	text-decoration: none;
+	
+}
+li{
+	list-style: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #c00;
+}
+.clearfix{
+	content: ".";
+	display: block;
+	overflow: hidden;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	font-size: 1px;
+}

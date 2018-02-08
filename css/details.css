@@ -1,0 +1,301 @@
+#header {
+  background: #f5f5f5;
+  height: 29px;
+  width: 100%;
+  border-bottom: 1px #e6e6e6 solid; }
+  #header .left_header {
+    float: left; }
+    #header .left_header ul {
+      height: 29px; }
+      #header .left_header ul li {
+        margin: 0 11px;
+        float: left;
+        line-height: 29px; }
+        #header .left_header ul li a:hover {
+          text-decoration: underline; }
+        #header .left_header ul li .login {
+          color: #3366cc; }
+          #header .left_header ul li .login:hover {
+            color: #c00 !important; }
+        #header .left_header ul li .sign {
+          color: #c00; }
+  #header .right_header ul {
+    float: right;
+    height: 29px; }
+    #header .right_header ul .buyermarket a, #header .right_header ul .buyermarket span {
+      float: left; }
+    #header .right_header ul .buyermarket .buyer-h {
+      position: relative;
+      z-index: 3; }
+    #header .right_header ul .buyermarket:hover .iconfont {
+      transform: rotate(180deg);
+      transition: all 0.5s; }
+    #header .right_header ul .buyermarket:hover .buyermarket_nav {
+      display: block;
+      border: 1px solid #e6e6e6; }
+    #header .right_header ul .space {
+      width: 1px;
+      height: 10px;
+      background: #d3ccd3;
+      margin: 0 5px;
+      padding: 0;
+      margin-top: 10px; }
+    #header .right_header ul .shoujistore .icon-msnui-tel {
+      color: #c00;
+      float: left; }
+    #header .right_header ul .shoujistore .icon-down {
+      float: right; }
+    #header .right_header ul .shoujistore:hover .icon-down {
+      transform: rotate(180deg);
+      transition: all 0.5s; }
+    #header .right_header ul .shoujistore:hover .shoujistore_nav {
+      display: block; }
+    #header .right_header ul .help {
+      position: relative; }
+      #header .right_header ul .help .icon-down {
+        float: right; }
+      #header .right_header ul .help:hover .icon-down {
+        transform: rotate(180deg);
+        transition: all 0.5s; }
+      #header .right_header ul .help:hover .Customerservice {
+        border: 1px solid #e6e6e6;
+        display: block; }
+      #header .right_header ul .help .Customerservice {
+        position: absolute;
+        width: 100px;
+        top: 30px;
+        left: 0;
+        display: none;
+        background: white; }
+    #header .right_header ul li {
+      float: left;
+      line-height: 29px;
+      padding: 0 10px;
+      position: relative; }
+      #header .right_header ul li .shoujistore_nav {
+        position: absolute;
+        top: 30px;
+        display: none;
+        background: white;
+        width: 70px;
+        height: 70px; }
+        #header .right_header ul li .shoujistore_nav li {
+          border: 1px solid #e6e6e6; }
+          #header .right_header ul li .shoujistore_nav li img {
+            width: 60px;
+            height: 60px; }
+      #header .right_header ul li .buyermarket_nav {
+        position: absolute;
+        top: 29px;
+        left: 0px;
+        z-index: 2;
+        width: 100px;
+        overflow: hidden;
+        height: 55px;
+        display: none;
+        background: white; }
+        #header .right_header ul li .buyermarket_nav i {
+          font-style: normal;
+          color: #c00; }
+
+.main {
+  width: 1200px;
+  margin: 0 auto; }
+
+#zol-top {
+  height: 113px;
+  background: white; }
+
+#zol-top2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  height: 95px;
+  background: white;
+  width: 100%;
+  z-index: 9;
+  box-shadow: 0 3px 3px #ccc; }
+
+.top_left {
+  float: left; }
+  .top_left img {
+    margin-top: 30px; }
+  .top_left .top_area {
+    float: right;
+    margin: 40px;
+    position: relative;
+    z-index: 3;
+    border: 1px solid #e6e6e6;
+    background: white; }
+    .top_left .top_area .allarea {
+      position: relative;
+      z-index: 5;
+      background: white;
+      border-bottom: none; }
+      .top_left .top_area .allarea:hover span {
+        transform: rotate(180deg);
+        transition: all 0.5s; }
+      .top_left .top_area .allarea li {
+        padding: 7px 10px; }
+    .top_left .top_area .areas_nav {
+      z-index: 1;
+      position: absolute;
+      top: 30px;
+      left: -1px;
+      width: 170px;
+      height: 80px;
+      border: 1px solid #E6E6E6;
+      display: none; }
+      .top_left .top_area .areas_nav li {
+        float: left;
+        margin: 1px 5px; }
+
+.top_center {
+  float: left;
+  margin: 40px 0 0 100px;
+  border: 2px solid #ec3639;
+  position: relative; }
+  .top_center input {
+    width: 400px;
+    height: 30px;
+    outline: none;
+    border: none; }
+  .top_center button {
+    width: 60px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background: #ec3639; }
+  .top_center .s-txt1 {
+    position: absolute;
+    background: #eee;
+    left: 250px;
+    top: 7px;
+    text-align: center;
+    line-height: 20px;
+    height: 20px; }
+  .top_center .s-txt2 {
+    position: absolute;
+    background: #eee;
+    left: 330px;
+    top: 7px;
+    text-align: center;
+    line-height: 20px;
+    height: 20px; }
+
+.top_right .top-r {
+  float: right;
+  margin-top: 45px; }
+  .top_right .top-r li {
+    margin: 0 5px;
+    float: left;
+    font-size: 14px; }
+    .top_right .top-r li span {
+      padding-right: 5px; }
+    .top_right .top-r li #top-r-s3 {
+      position: relative; }
+      .top_right .top-r li #top-r-s3 i {
+        position: absolute;
+        font-style: normal;
+        width: 13px;
+        height: 13px;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        background: #ec3639;
+        border-radius: 50%;
+        top: -6px;
+        left: 10px; }
+
+#classify ul {
+  overflow: hidden;
+  margin: 30px 0 0 200px; }
+  #classify ul li {
+    float: left; }
+    #classify ul li a {
+      font-size: 20px;
+      margin: 0 25px; }
+
+#lunbo {
+  width: 100%;
+  height: 400px;
+  position: relative; }
+  #lunbo #Allitem {
+    position: relative;
+    top: -30px;
+    left: 100px;
+    background: #454545;
+    width: 200px;
+    height: 430px; }
+    #lunbo #Allitem span {
+      font-size: 18px;
+      color: white;
+      margin: 0 20px 0 10px; }
+    #lunbo #Allitem i {
+      font-style: normal;
+      font-size: 16px;
+      color: white; }
+    #lunbo #Allitem em {
+      font-style: normal;
+      font-size: 12px;
+      color: #808080;
+      margin-left: 60px; }
+    #lunbo #Allitem .item-nav {
+      display: none; }
+    #lunbo #Allitem .Aitem-1 {
+      padding: 5px 10px;
+      background: #ec3639; }
+    #lunbo #Allitem .Aitem-2, #lunbo #Allitem .Aitem-3, #lunbo #Allitem .Aitem-4, #lunbo #Allitem .Aitem-5, #lunbo #Allitem .Aitem-6, #lunbo #Allitem .Aitem-7 {
+      border-bottom: 1px solid #4d4d4d;
+      height: 52px;
+      line-height: 50px;
+      padding-left: 10px; }
+    #lunbo #Allitem .Aitem-active {
+      background: white; }
+      #lunbo #Allitem .Aitem-active span, #lunbo #Allitem .Aitem-active i {
+        color: #333; }
+    #lunbo #Allitem .Aitem-21, #lunbo #Allitem .Aitem-31, #lunbo #Allitem .Aitem-41, #lunbo #Allitem .Aitem-51, #lunbo #Allitem .Aitem-61, #lunbo #Allitem .Aitem-71 {
+      display: none;
+      overflow: hidden;
+      position: absolute;
+      width: 600px;
+      height: 330px;
+      background: white;
+      top: 30px;
+      left: 200px;
+      box-shadow: 6px -3px 10px #ccc; }
+      #lunbo #Allitem .Aitem-21 li, #lunbo #Allitem .Aitem-31 li, #lunbo #Allitem .Aitem-41 li, #lunbo #Allitem .Aitem-51 li, #lunbo #Allitem .Aitem-61 li, #lunbo #Allitem .Aitem-71 li {
+        width: 80px;
+        height: 25px;
+        text-align: center;
+        float: left;
+        margin: 5px  3px; }
+        #lunbo #Allitem .Aitem-21 li a, #lunbo #Allitem .Aitem-31 li a, #lunbo #Allitem .Aitem-41 li a, #lunbo #Allitem .Aitem-51 li a, #lunbo #Allitem .Aitem-61 li a, #lunbo #Allitem .Aitem-71 li a {
+          font-size: 16px; }
+      #lunbo #Allitem .Aitem-21 img, #lunbo #Allitem .Aitem-31 img, #lunbo #Allitem .Aitem-41 img, #lunbo #Allitem .Aitem-51 img, #lunbo #Allitem .Aitem-61 img, #lunbo #Allitem .Aitem-71 img {
+        width: 600px;
+        height: 260px; }
+    #lunbo #Allitem .Aitem-3 i {
+      margin-left: -4px; }
+    #lunbo #Allitem .Aitem-4 span {
+      margin-left: 13px; }
+    #lunbo #Allitem .Aitem-4 em {
+      margin-left: 64px; }
+    #lunbo #Allitem .Aitem-5 span {
+      margin-left: 14px; }
+    #lunbo #Allitem .Aitem-5 i {
+      margin-left: -3px; }
+    #lunbo #Allitem .Aitem-5 em {
+      margin-left: 58px; }
+    #lunbo #Allitem .Aitem-6 span {
+      margin-left: 11px;
+      font-size: 21px; }
+    #lunbo #Allitem .Aitem-6 i {
+      margin-left: -3px; }
+    #lunbo #Allitem .Aitem-6 em {
+      margin-left: 58px; }
+    #lunbo #Allitem .Aitem-7 {
+      border: none; }
+      #lunbo #Allitem .Aitem-7 em {
+        margin-left: 58px; }
