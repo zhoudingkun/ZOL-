@@ -1,0 +1,209 @@
+.main{
+    width: 990px;
+    margin: 0 auto;
+}
+body{
+    background: #fafafa;
+}
+//登录界面的头部
+.login-header{
+    margin-top: 10px;
+    overflow: hidden;
+    .header-left{
+        float: left;
+        li{
+            font-size: 14px;
+            float: left;
+        }
+        li.space{
+            width: 1px;
+            height: 45px;
+            background: #e6e6e6;
+            margin: 10px 7px 0 7px;
+        }
+        li.hl-last{
+            margin-top: 20px;
+        }
+    }
+    .header-right{
+        float: right;
+        margin-top: 20px;
+        span{
+            font-size: 14px;
+            a{
+                font-size: 14px;
+                color: red; padding: 3px;
+                &:hover{
+                    background: red;
+                   color: white;
+                }
+            }
+        }
+    }
+}
+.lg-nav{
+    margin-top: 40px;
+    background: white;
+    width: 988px;
+    height: 350px;
+    border: 1px solid #e6e6e6;
+    .left-nav{
+        float: left;
+    }
+    .right-nav{
+        float: left;
+        margin: 30px 0 0 90px;
+        ul.active2{
+            display: block !important;
+        }
+        li.active1{
+            border-bottom:2px solid #de3030;
+        }
+        ul{
+            height: 32px;
+            border-bottom: 2px solid #e6e6e6;
+            li{
+                float: left;
+                position: relative;
+                width: 144px;
+                line-height: 32px;
+                font-size: 18px;
+                text-align: center;
+            }
+            input{
+                width: 288px;
+                height:38px;
+            }
+            .l1{
+                .list1{
+                    position: absolute;
+                    top: 45px;
+                    display: none;
+                    li{
+                        width: 288px;
+                        margin-bottom: 10px;
+                    }
+                    .cooper{
+                        background: url("../images/login5_03.jpg") repeat-x;
+                        margin-top: 10px;
+                        position: relative;
+                        height: 20px;
+                        span{
+                            position: absolute;
+                            top: -15px;
+                            left: 30%;
+                        }
+                    }
+                    // 五个合作账号登录
+                    .coo{
+                        margin-top: -14px;
+                        .coo1,.coo2,.coo3,.coo4,.coo5{
+                            float: left;
+                            width: 39px;
+                            height: 40px;
+                            margin-right: 18px;
+                        }
+                        .coo1{
+                            background: url('../images/lgbg1.png') no-repeat 0 2px;
+                            &:hover{
+                                background: url('../images/lgbg1.png') no-repeat 0 -38px;
+                            }
+                        }
+                        .coo2{
+                            background: url('../images/lgbg3.png') no-repeat 0 -81px;
+                            &:hover{
+                                background: url('../images/lgbg3.png') no-repeat 0 -119px;
+                            }
+                        }
+                        .coo3{
+                            background: url('../images/lgbg3.png') no-repeat -38px -81px;
+                            &:hover{
+                                background: url('../images/lgbg3.png') no-repeat -38px -119px;
+                            }
+                        }
+                        .coo4{
+                            background: url('../images/lgbg3.png') no-repeat -76px -81px;
+                            &:hover{
+                                background: url('../images/lgbg3.png') no-repeat -77px -119px;
+                            }
+                        }
+                        .coo5{
+                            background: url('../images/lgbg3.png') no-repeat -116px -81px;
+                            &:hover{
+                                background: url('../images/lgbg3.png') no-repeat -116px -119px;
+                            }
+                        }
+
+                    }
+                    .list1-btn{
+                        background: #de2f2f;
+                        color: white;border-style: none;
+                    }
+                    .list1-left{
+                        float: left;
+                        span{
+                            color: red;
+                        }
+                        i{
+                            font-style: normal;
+                            font-size: 12px;
+                        }
+                    }
+                    .list1-right{
+                        float:right;
+                    }
+                }
+            }
+            .l2{
+                float: left;
+                .list2{
+                    display: none;
+                    position: absolute;
+                    top: 45px;
+                    left: -143px;
+                    li{
+                        width: 288px;
+                        margin-bottom: 10px;
+                    }
+                    .list2-btn{
+                        background: #de2f2f;
+                        color: white;border-style: none;
+                    }
+                    .list2-right{
+                        float:right;
+                    }
+                }
+            }
+        }
+    }
+}
+.hr{
+    margin-top: 80px;
+}
+.footer{
+    .footer-left{
+        float: left;
+        margin-top: 13px;
+        li{
+            float: left;
+
+            a{
+                color: #666;
+            }
+        }
+        li.space{
+            width: 1px;
+            height: 10px;
+            background: #d4ccd4;
+            margin-top:10px;
+            margin: 0 11px;
+
+        }
+    }
+    .footer-right{
+        margin-top: 13px;
+        float: right;
+        font-size: 12px;
+        color: #666;
+    }
+}

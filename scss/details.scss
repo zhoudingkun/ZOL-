@@ -1,0 +1,439 @@
+#header{
+    background: #f5f5f5;
+    height: 29px;
+    width: 100%;
+    border-bottom: 1px #e6e6e6 solid;
+    
+    .left_header{
+        float: left;
+        ul{
+            height: 29px;
+            li{
+                margin: 0 11px;
+                float: left;
+                line-height: 29px;
+                a{
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .login{
+                    color: #3366cc;
+                    &:hover{
+                        color: #c00 !important;
+                    }
+                }
+                .sign{
+                    color: #c00 ;
+                }
+            }
+        }
+    }
+    .right_header{
+        
+        ul{
+            float: right;
+            height: 29px;
+            //第二个li  买家中心
+            .buyermarket{
+                
+                a,span{
+                    float: left;
+                }
+                .buyer-h{
+                    position:relative;
+                        z-index:3;
+                }
+                &:hover{
+                  
+                    .iconfont{
+                        transform: rotate(180deg);
+                        transition: all 0.5s;
+                    }
+                    .buyermarket_nav{
+                           
+                          display: block;
+                          border: 1px solid #e6e6e6;
+                    }
+                  
+                }
+            }
+            //space中间边界栏
+            .space{
+                width: 1px;
+                height: 10px;
+                background: #d3ccd3;
+                margin: 0 5px;
+                padding: 0;
+                margin-top: 10px;
+            }
+            //手机商城
+            .shoujistore{
+                .icon-msnui-tel{
+                    color: #c00;
+                    float: left;
+                }
+                .icon-down{
+                    float: right;
+                }
+                &:hover{
+                    .icon-down{
+                        transform: rotate(180deg);
+                        transition:all 0.5s;
+                    }
+                    .shoujistore_nav{
+                        display: block;
+                    }
+                }
+                
+            }
+            //联系客服
+            .help{
+                position: relative;
+                .icon-down{
+                    float: right;
+                }
+                &:hover{
+                    .icon-down{
+                        transform: rotate(180deg);
+                        transition:all 0.5s; 
+                    }
+                    .Customerservice{
+                        border: 1px solid #e6e6e6;
+                        display: block;
+                    }
+                }
+                .Customerservice{
+                    position: absolute;
+                    width: 100px;
+                    top: 30px;
+                    left: 0;
+                    display: none;
+                    background: white;
+                }
+            }
+            li{
+                float: left;
+                line-height: 29px;
+                padding: 0 10px;
+                position: relative;
+                .shoujistore_nav{
+                    position: absolute;
+                    top: 30px;
+                    display: none;
+                    background: white;
+                    width: 70px;
+                    height: 70px;
+                    li{
+                        border: 1px solid #e6e6e6;
+                        img{
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                    
+                }
+                   
+                a{
+                }
+                span{
+                }
+                .buyermarket_nav{
+                    position: absolute;
+                    top: 29px;
+                    left: 0px;
+                    z-index: 2;
+                    width: 100px;
+                 //   border:1px solid #e6e6e6 ;
+                    overflow: hidden;
+                    height: 55px;
+                    display: none;
+                    background: white;
+                        i{
+                            font-style: normal;
+                            color: #c00;
+                        }
+                    
+                }
+            }
+           
+        }
+    }
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+//************************网页z商城头部左侧
+#zol-top{
+    //width: 100%;
+    height: 113px;
+    background: white;
+}
+// 悬浮吸顶头部
+#zol-top2{
+    display: none;  
+    position: fixed;
+    top: 0;
+    height: 95px;
+    background: white;
+    width: 100%; 
+    z-index: 9; 
+    box-shadow: 0 3px 3px #ccc;
+}  
+.top_left{
+float: left;
+img{
+    margin-top:30px ;
+}
+.top_area{
+        float: right;
+        margin: 40px;
+        position: relative;
+        z-index: 3;
+        border: 1px solid #e6e6e6;
+        background: white;
+    .allarea{
+      position: relative;
+        z-index: 5;
+        background: white;
+         border-bottom: none;          
+        &:hover{
+            span{
+                transform: rotate(180deg);
+                transition: all 0.5s;
+            }
+        }
+        li{
+           padding: 7px 10px;
+            
+        }
+    }
+    .areas_nav{
+           z-index: 1;
+            position: absolute;
+            top: 30px;
+            left: -1px;
+            width: 170px;
+            height: 80px;
+            border: 1px solid #E6E6E6;
+            display: none;
+        li{
+            float: left;
+            margin: 1px 5px;
+        }
+    }
+}
+}
+//网页头部中心
+.top_center{
+float: left;
+margin:40px 0 0 100px;
+border: 2px solid #ec3639;
+position: relative;
+input{
+    width: 400px;
+    height: 30px;
+    outline:none; 
+    border: none;
+    // &[placeholder]{
+    //     font-weight: bold;
+    // }
+}
+button{
+    width: 60px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+    color:#fff;
+    background: #ec3639;
+    
+}
+.s-txt1{
+    position: absolute;
+    background: #eee;
+    left: 250px;
+    top: 7px;
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+}
+.s-txt2{
+    position: absolute;
+    background: #eee;
+    left: 330px;
+    top: 7px;
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+}
+
+}
+//top右侧事件头部
+.top_right{
+
+    .top-r{
+        float: right;
+        margin-top: 45px;
+        li{
+            margin: 0 5px;
+            float: left;
+            font-size: 14px;
+            span{
+                padding-right: 5px;
+            }
+            #top-r-s3{
+                position: relative;
+                i{      
+                    position: absolute;
+                    font-style: normal;
+                    width: 13px;
+                    height: 13px;
+                    color: #fff;
+                    font-size: 12px;
+                    text-align: center;
+                    background: #ec3639;
+                    border-radius: 50%;
+                    top: -6px;
+                    left: 10px;
+                }
+            }
+        
+        }
+    }
+}
+
+#classify{
+   
+    ul{
+        overflow: hidden;
+        margin: 30px 0 0 200px;
+        li{
+            
+            float: left;
+            a{
+                font-size: 20px;
+                margin: 0 25px;
+            }
+        }
+    }
+}
+// 轮播图
+#lunbo{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    //轮播里面的全部分类导航条   定位在轮播图上
+    #Allitem{
+        position: relative;
+        top: -30px;
+        left: 100px;
+        background:#454545;
+        width:200px;
+        height: 430px;
+            span{
+                font-size:18px;
+                color:white;
+                margin: 0 20px 0 10px;
+            }
+            i{
+                font-style: normal;
+                font-size:16px;
+                color:white;
+            }
+            em{
+                font-style: normal;
+                font-size:12px;
+                color:#808080;
+                margin-left: 60px;
+            }
+            .item-nav{
+                display: none;
+            }
+            .Aitem-1{
+                //text-align: center;
+                padding: 5px 10px;
+                background: #ec3639;
+            }
+
+            .Aitem-2,.Aitem-3,.Aitem-4,.Aitem-5,.Aitem-6,.Aitem-7{
+                border-bottom: 1px solid #4d4d4d;
+                height: 52px;
+                line-height: 50px;
+                 padding-left: 10px;
+                
+            }
+            .Aitem-active{
+                background: white;
+                span,i{
+                    color:#333;
+                }
+           
+            }
+            .Aitem-21,.Aitem-31,.Aitem-41,.Aitem-51,.Aitem-61,.Aitem-71{
+                display: none;
+                overflow: hidden;
+                position: absolute;
+                width: 600px;
+                height: 330px;
+                background: white;
+                top: 30px;
+                left: 200px;
+                box-shadow: 6px -3px 10px #ccc;
+                li{
+                    width: 80px;
+                    height: 25px;
+                    text-align: center;
+                    float: left;
+                    margin:5px  3px;
+                    a{
+                        font-size: 16px;
+                    }
+                }
+                img{
+                    width: 600px;
+                    height: 260px;
+                }
+            }
+            .Aitem-3{
+               i{
+                margin-left: -4px;
+               }
+            }
+            .Aitem-4{
+                span{
+                    margin-left:13px;
+                }
+                em{
+                    margin-left: 64px;
+                }
+            }
+            .Aitem-5{
+                span{
+                   margin-left: 14px;
+                }
+                i{
+                    margin-left: -3px;
+                }
+                em{
+                    margin-left: 58px;
+                }
+            }
+            .Aitem-6{
+                span{    margin-left: 11px;
+                    font-size: 21px;}
+                i{
+                    margin-left: -3px;
+                }
+                em{
+                    margin-left: 58px;
+                }
+            }
+            .Aitem-7{
+                border: none;
+                em{
+                    margin-left: 58px;
+                }
+            }
+    }
+}
